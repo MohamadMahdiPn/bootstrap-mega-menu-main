@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/bootstrap-mega-menu.rtl.min.css" />
+ <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  
+  <!-- Start your project here-->
+  <style>
+    .dropdown-hover:hover>.dropdown-menu {
+      display: inline-block;
+    }
+
+    .dropdown-hover>.dropdown-toggle:active {
+      /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+    }
+  </style>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler px-0" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExampleOnHover" aria-controls="navbarExampleOnHover" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarExampleOnHover">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto ps-lg-0" style="padding-left: 0.15rem">
+          <li class="nav-item">
+            <a class="nav-link" href="#">تماس با ما</a>
+          </li>
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown dropdown-hover position-static">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">
+             درباره ما
+            </a>
+            <!-- Dropdown menu -->
+            <div class="dropdown-menu w-100 mt-0 bg-custom-dark-opacity" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                  ">
+  
+              <div class="container-fluid px-5 text-white">
+                <div class="row my-4 d-flex justify-content-end">
+                  <div class="col-md-6 col-lg-3">
+                    <img src="./img/aboutPic-1.png" alt="">
+                  </div>
+                  <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                    <div class="ul-color ist-group list-group-flush">
+                      <p>
+                        <strong>نمایشگاه‌ها</strong>
+                      </p>
+                      <ul class="list-unstyled">
+                        <li><a href="#">اخبار</a></li>
+                        <li><a href="#">رویدادها</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="ul-color list-group list-group-flush">
+                      <p>
+                        <strong>چرا باید پارتوآ را انتخاب کرد؟</strong>
+                      </p>
+                      <ul class="list-unstyled">
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">سیر تکاملی پارتوآ</a></li>
+                        <li><a href="#">بیش از یک دهه تجربه</a></li>
+                        <li><a href="#">تاریخچه</a></li>
+                        <li><a href="#">منشور اخلاقی</a></li>
+                        <li><a href="#">خط مشی</a></li>
+                        <li><a href="#">چارت سازمانی</a></li>
+                        <li><a href="#">گواهینامه‌ها</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>

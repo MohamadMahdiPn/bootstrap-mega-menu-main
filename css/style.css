@@ -1,0 +1,20 @@
+.bg-custom-dark {
+    
+    background-color: #242222 !important
+}
+
+.bg-custom-dark-opacity {
+    
+    background-color: #242222f7 !important
+    
+}
+.ul-color ul li a {
+    color: #eee ;
+}
+body{
+    background-image: url("../img/Slider.gif");
+}
+.ul-color ul li a:hover
+{
+    color: #b3b3b3 ;
+}
