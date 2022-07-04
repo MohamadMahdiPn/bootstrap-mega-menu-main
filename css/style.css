@@ -9,12 +9,21 @@
     
 }
 .ul-color ul li a {
-    color: #eee ;
+    color: #fff ;
 }
 body{
     background-image: url("../img/Slider.gif");
 }
 .ul-color ul li a:hover
 {
-    color: #b3b3b3 ;
+    /* color: #b3b3b3 ; */
+    color: red;
+}
+
+.bg-gray{
+    background-color: #595858;
+}
+
+.custom-border{
+    border-left: 2px solid #fff ;
 }
